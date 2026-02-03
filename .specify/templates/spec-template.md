@@ -84,16 +84,16 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: Content MUST comprehensively cover all 25 knowledge domains from the official study plan
+- **FR-002**: Content MUST include 5000+ multiple-choice questions (MCQs) with detailed explanations
+- **FR-003**: Book MUST prepare candidates for both competitive examinations and actual job responsibilities
+- **FR-004**: Content MUST be structured to accommodate IT professionals with 5-10 years of experience
+- **FR-005**: Book MUST include practical examples and real-world applications relevant to Assistant Director IT role
 
 *Example of marking unclear requirements:*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **FR-006**: Content MUST be updated for [NEEDS CLARIFICATION: update frequency not specified - monthly, quarterly, annually?]
+- **FR-007**: Assessment difficulty MUST align with [NEEDS CLARIFICATION: specific exam standards not specified]
 
 ### Key Entities *(include if feature involves data)*
 

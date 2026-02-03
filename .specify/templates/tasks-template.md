@@ -44,101 +44,101 @@ description: "Task list template for feature implementation"
   ============================================================================
 -->
 
-## Phase 1: Setup (Shared Infrastructure)
+## Phase 1: Content Framework (Shared Structure)
 
-**Purpose**: Project initialization and basic structure
+**Purpose**: Establish the foundational structure for the ADIT preparation book
 
-- [ ] T001 Create project structure per implementation plan
-- [ ] T002 Initialize [language] project with [framework] dependencies
-- [ ] T003 [P] Configure linting and formatting tools
+- [ ] T001 Create project structure for 25 knowledge domains
+- [ ] T002 Develop template for domain chapters with consistent formatting
+- [ ] T003 [P] Configure content management tools and version control
 
 ---
 
-## Phase 2: Foundational (Blocking Prerequisites)
+## Phase 2: Foundational Content (Blocking Prerequisites)
 
-**Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
+**Purpose**: Core content elements that MUST be complete before ANY domain can be developed
 
-**⚠️ CRITICAL**: No user story work can begin until this phase is complete
+**⚠️ CRITICAL**: No domain work can begin until this phase is complete
 
 Examples of foundational tasks (adjust based on your project):
 
-- [ ] T004 Setup database schema and migrations framework
-- [ ] T005 [P] Implement authentication/authorization framework
-- [ ] T006 [P] Setup API routing and middleware structure
-- [ ] T007 Create base models/entities that all stories depend on
-- [ ] T008 Configure error handling and logging infrastructure
-- [ ] T009 Setup environment configuration management
+- [ ] T004 Establish content standards and style guide for all domains
+- [ ] T005 [P] Define assessment framework for MCQs and practice tests
+- [ ] T006 [P] Create template for practical application scenarios
+- [ ] T007 Develop index and cross-reference system for all domains
+- [ ] T008 Configure quality assurance and review processes
+- [ ] T009 Setup content management and version control system
 
-**Checkpoint**: Foundation ready - user story implementation can now begin in parallel
-
----
-
-## Phase 3: User Story 1 - [Title] (Priority: P1) 🎯 MVP
-
-**Goal**: [Brief description of what this story delivers]
-
-**Independent Test**: [How to verify this story works on its own]
-
-### Tests for User Story 1 (OPTIONAL - only if tests requested) ⚠️
-
-> **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
-
-- [ ] T010 [P] [US1] Contract test for [endpoint] in tests/contract/test_[name].py
-- [ ] T011 [P] [US1] Integration test for [user journey] in tests/integration/test_[name].py
-
-### Implementation for User Story 1
-
-- [ ] T012 [P] [US1] Create [Entity1] model in src/models/[entity1].py
-- [ ] T013 [P] [US1] Create [Entity2] model in src/models/[entity2].py
-- [ ] T014 [US1] Implement [Service] in src/services/[service].py (depends on T012, T013)
-- [ ] T015 [US1] Implement [endpoint/feature] in src/[location]/[file].py
-- [ ] T016 [US1] Add validation and error handling
-- [ ] T017 [US1] Add logging for user story 1 operations
-
-**Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
+**Checkpoint**: Foundation ready - domain implementation can now begin in parallel
 
 ---
 
-## Phase 4: User Story 2 - [Title] (Priority: P2)
+## Phase 3: Domain 1 - [Domain Title] (Priority: P1) 🎯 Core Foundation
 
-**Goal**: [Brief description of what this story delivers]
+**Goal**: [Brief description of what this domain delivers]
 
-**Independent Test**: [How to verify this story works on its own]
+**Independent Test**: [How to verify this domain works on its own]
 
-### Tests for User Story 2 (OPTIONAL - only if tests requested) ⚠️
+### Content Review for Domain 1 (OPTIONAL - only if reviews requested) ⚠️
 
-- [ ] T018 [P] [US2] Contract test for [endpoint] in tests/contract/test_[name].py
-- [ ] T019 [P] [US2] Integration test for [user journey] in tests/integration/test_[name].py
+> **NOTE: Reviews should be conducted FIRST, ensure content meets standards before finalizing**
 
-### Implementation for User Story 2
+- [ ] T010 [P] [D1] Content review for [domain topic] in domains/[domain-name]/content.md
+- [ ] T011 [P] [D1] MCQ validation for [domain topic] in domains/[domain-name]/assessments.md
 
-- [ ] T020 [P] [US2] Create [Entity] model in src/models/[entity].py
-- [ ] T021 [US2] Implement [Service] in src/services/[service].py
-- [ ] T022 [US2] Implement [endpoint/feature] in src/[location]/[file].py
-- [ ] T023 [US2] Integrate with User Story 1 components (if needed)
+### Implementation for Domain 1
 
-**Checkpoint**: At this point, User Stories 1 AND 2 should both work independently
+- [ ] T012 [P] [D1] Research and outline [Topic 1] in domains/[domain-name]/topics/[topic1].md
+- [ ] T013 [P] [D1] Research and outline [Topic 2] in domains/[domain-name]/topics/[topic2].md
+- [ ] T014 [D1] Write comprehensive content for [Topic 1] in domains/[domain-name]/topics/[topic1].md (depends on T012)
+- [ ] T015 [D1] Write comprehensive content for [Topic 2] in domains/[domain-name]/topics/[topic2].md (depends on T013)
+- [ ] T016 [D1] Add practical application examples and scenarios
+- [ ] T017 [D1] Compile 200+ MCQs with detailed explanations for this domain
+
+**Checkpoint**: At this point, Domain 1 should be fully developed and reviewable independently
 
 ---
 
-## Phase 5: User Story 3 - [Title] (Priority: P3)
+## Phase 4: Domain 2 - [Domain Title] (Priority: P2)
 
-**Goal**: [Brief description of what this story delivers]
+**Goal**: [Brief description of what this domain delivers]
 
-**Independent Test**: [How to verify this story works on its own]
+**Independent Test**: [How to verify this domain works on its own]
 
-### Tests for User Story 3 (OPTIONAL - only if tests requested) ⚠️
+### Content Review for Domain 2 (OPTIONAL - only if reviews requested) ⚠️
 
-- [ ] T024 [P] [US3] Contract test for [endpoint] in tests/contract/test_[name].py
-- [ ] T025 [P] [US3] Integration test for [user journey] in tests/integration/test_[name].py
+- [ ] T018 [P] [D2] Content review for [domain topic] in domains/[domain-name]/content.md
+- [ ] T019 [P] [D2] MCQ validation for [domain topic] in domains/[domain-name]/assessments.md
 
-### Implementation for User Story 3
+### Implementation for Domain 2
 
-- [ ] T026 [P] [US3] Create [Entity] model in src/models/[entity].py
-- [ ] T027 [US3] Implement [Service] in src/services/[service].py
-- [ ] T028 [US3] Implement [endpoint/feature] in src/[location]/[file].py
+- [ ] T020 [P] [D2] Research and outline [Topic] in domains/[domain-name]/topics/[topic].md
+- [ ] T021 [D2] Write comprehensive content for [domain topic] in domains/[domain-name]/content.md
+- [ ] T022 [D2] Add practical application examples and scenarios
+- [ ] T023 [D2] Integrate with Domain 1 concepts (if cross-domain connections exist)
 
-**Checkpoint**: All user stories should now be independently functional
+**Checkpoint**: At this point, Domains 1 AND 2 should both work independently
+
+---
+
+## Phase 5: Domain 3 - [Domain Title] (Priority: P3)
+
+**Goal**: [Brief description of what this domain delivers]
+
+**Independent Test**: [How to verify this domain works on its own]
+
+### Content Review for Domain 3 (OPTIONAL - only if reviews requested) ⚠️
+
+- [ ] T024 [P] [D3] Content review for [domain topic] in domains/[domain-name]/content.md
+- [ ] T025 [P] [D3] MCQ validation for [domain topic] in domains/[domain-name]/assessments.md
+
+### Implementation for Domain 3
+
+- [ ] T026 [P] [D3] Research and outline [Topic] in domains/[domain-name]/topics/[topic].md
+- [ ] T027 [D3] Write comprehensive content for [domain topic] in domains/[domain-name]/content.md
+- [ ] T028 [D3] Add practical application examples and scenarios
+
+**Checkpoint**: All domains should now be independently functional
 
 ---
 
@@ -170,19 +170,19 @@ Examples of foundational tasks (adjust based on your project):
   - Or sequentially in priority order (P1 → P2 → P3)
 - **Polish (Final Phase)**: Depends on all desired user stories being complete
 
-### User Story Dependencies
+### Domain Dependencies
 
-- **User Story 1 (P1)**: Can start after Foundational (Phase 2) - No dependencies on other stories
-- **User Story 2 (P2)**: Can start after Foundational (Phase 2) - May integrate with US1 but should be independently testable
-- **User Story 3 (P3)**: Can start after Foundational (Phase 2) - May integrate with US1/US2 but should be independently testable
+- **Domain 1 (P1)**: Can start after Foundational (Phase 2) - No dependencies on other domains
+- **Domain 2 (P2)**: Can start after Foundational (Phase 2) - May connect with D1 but should be independently reviewable
+- **Domain 3 (P3)**: Can start after Foundational (Phase 2) - May connect with D1/D2 but should be independently reviewable
 
-### Within Each User Story
+### Within Each Domain
 
-- Tests (if included) MUST be written and FAIL before implementation
-- Models before services
-- Services before endpoints
-- Core implementation before integration
-- Story complete before moving to next priority
+- Content research before writing
+- Topic outlines before comprehensive content
+- Content before assessments
+- Core concepts before practical applications
+- Domain complete before moving to next priority
 
 ### Parallel Opportunities
 
@@ -195,57 +195,57 @@ Examples of foundational tasks (adjust based on your project):
 
 ---
 
-## Parallel Example: User Story 1
+## Parallel Example: Domain 1
 
 ```bash
-# Launch all tests for User Story 1 together (if tests requested):
-Task: "Contract test for [endpoint] in tests/contract/test_[name].py"
-Task: "Integration test for [user journey] in tests/integration/test_[name].py"
+# Launch all content reviews for Domain 1 together (if reviews requested):
+Task: "Content review for [domain topic] in domains/[domain-name]/content.md"
+Task: "MCQ validation for [domain topic] in domains/[domain-name]/assessments.md"
 
-# Launch all models for User Story 1 together:
-Task: "Create [Entity1] model in src/models/[entity1].py"
-Task: "Create [Entity2] model in src/models/[entity2].py"
+# Launch all topics for Domain 1 together:
+Task: "Research and outline [Topic 1] in domains/[domain-name]/topics/[topic1].md"
+Task: "Research and outline [Topic 2] in domains/[domain-name]/topics/[topic2].md"
 ```
 
 ---
 
 ## Implementation Strategy
 
-### MVP First (User Story 1 Only)
+### Core Foundation First (Domain 1 Only)
 
-1. Complete Phase 1: Setup
-2. Complete Phase 2: Foundational (CRITICAL - blocks all stories)
-3. Complete Phase 3: User Story 1
-4. **STOP and VALIDATE**: Test User Story 1 independently
-5. Deploy/demo if ready
+1. Complete Phase 1: Content Framework
+2. Complete Phase 2: Foundational Content (CRITICAL - blocks all domains)
+3. Complete Phase 3: Domain 1
+4. **STOP and REVIEW**: Validate Domain 1 independently
+5. Review/demo if ready
 
 ### Incremental Delivery
 
-1. Complete Setup + Foundational → Foundation ready
-2. Add User Story 1 → Test independently → Deploy/Demo (MVP!)
-3. Add User Story 2 → Test independently → Deploy/Demo
-4. Add User Story 3 → Test independently → Deploy/Demo
-5. Each story adds value without breaking previous stories
+1. Complete Framework + Foundational → Foundation ready
+2. Add Domain 1 → Review independently → Review/Demo (Core!)
+3. Add Domain 2 → Review independently → Review/Demo
+4. Add Domain 3 → Review independently → Review/Demo
+5. Each domain adds value without affecting previous domains
 
 ### Parallel Team Strategy
 
-With multiple developers:
+With multiple content developers:
 
-1. Team completes Setup + Foundational together
+1. Team completes Framework + Foundational together
 2. Once Foundational is done:
-   - Developer A: User Story 1
-   - Developer B: User Story 2
-   - Developer C: User Story 3
-3. Stories complete and integrate independently
+   - Developer A: Domain 1
+   - Developer B: Domain 2
+   - Developer C: Domain 3
+3. Domains complete and integrate independently
 
 ---
 
 ## Notes
 
 - [P] tasks = different files, no dependencies
-- [Story] label maps task to specific user story for traceability
-- Each user story should be independently completable and testable
-- Verify tests fail before implementing
+- [D#] label maps task to specific domain for traceability
+- Each domain should be independently developable and reviewable
+- Verify content meets quality standards before finalizing
 - Commit after each task or logical group
-- Stop at any checkpoint to validate story independently
-- Avoid: vague tasks, same file conflicts, cross-story dependencies that break independence
+- Stop at any checkpoint to validate domain independently
+- Avoid: vague tasks, same file conflicts, cross-domain dependencies that break independence
