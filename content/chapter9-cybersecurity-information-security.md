@@ -530,6 +530,324 @@ Cybersecurity and information security are critical components of modern IT infr
 - **Compliance**: Ensure compliance with laws and regulations
 - **Privacy**: Protect personal data and privacy rights
 
+### Additional Security Frameworks
+
+#### ISO 27005: Risk Management
+- **Purpose**: Guidelines for information security risk management
+- **Approach**: Systematic approach to risk management
+- **Process**: Context establishment, risk assessment, risk treatment, acceptance, communication
+- **Benefits**: Structured risk management process
+
+#### ISO 31000: Risk Management
+- **Purpose**: Generic risk management framework
+- **Principles**: Integration, structure, customization, inclusivity
+- **Framework**: Communication, context, risk assessment, treatment, monitoring
+- **Application**: Applicable to all types of risks
+
+#### FAIR (Factor Analysis of Information Risk)
+- **Purpose**: Quantitative model for IT risk analysis
+- **Approach**: Factor-based analysis of information risk
+- **Factors**: Threat event frequency, vulnerability, loss magnitude
+- **Benefits**: Quantitative risk measurement and comparison
+
+#### OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)
+- **Purpose**: Self-directed risk assessment methodology
+- **Approach**: Organization-centric, asset-focused approach
+- **Phases**: Build asset-based threat profiles, identify infrastructure vulnerabilities, develop security strategy
+- **Benefits**: Organization-specific risk assessment
+
+## Cryptography (Expanded Coverage)
+
+### Hash Functions: MD5, SHA-1, SHA-256, SHA-512
+
+#### Hash Function Properties
+- **One-way**: Computationally infeasible to reverse
+- **Deterministic**: Same input always produces same output
+- **Avalanche effect**: Small input changes cause large output changes
+- **Collision resistance**: Difficult to find two inputs with same output
+
+#### MD5 (Message Digest 5)
+- **Output**: 128-bit hash value
+- **Status**: Cryptographically broken, not recommended
+- **Applications**: Legacy systems, checksums (non-security)
+- **Vulnerabilities**: Practical collision attacks demonstrated
+
+#### SHA-1 (Secure Hash Algorithm 1)
+- **Output**: 160-bit hash value
+- **Status**: Deprecated, vulnerable to collision attacks
+- **Applications**: Legacy systems, transitioning to SHA-2
+- **Vulnerabilities**: Theoretical and practical attacks demonstrated
+
+#### SHA-2 Family
+- **Variants**: SHA-224, SHA-256, SHA-384, SHA-512
+- **Security**: Currently considered secure
+- **Applications**: Digital signatures, certificates, password hashing
+- **Adoption**: Widely deployed standard
+
+#### SHA-3
+- **Algorithm**: Keccak algorithm, selected by NIST
+- **Design**: Different approach from SHA-2 (sponge construction)
+- **Benefits**: Alternative to SHA-2, different security properties
+- **Status**: Approved standard, growing adoption
+
+### Digital Signatures
+
+#### Concept
+- **Purpose**: Verify authenticity and integrity of digital documents
+- **Process**: Hash document, encrypt hash with private key
+- **Verification**: Decrypt signature with public key, compare hashes
+- **Benefits**: Authentication, non-repudiation, integrity
+
+#### Process
+1. **Hash document**: Create hash of original document
+2. **Encrypt hash**: Encrypt hash with sender's private key
+3. **Attach signature**: Send document with encrypted hash
+4. **Verify signature**: Recipient decrypts with public key, compares hashes
+
+#### Applications
+- **Document signing**: Legal documents, contracts
+- **Software distribution**: Verify software authenticity
+- **Email security**: S/MIME, PGP
+- **Blockchain**: Transaction verification
+
+### Public Key Infrastructure (PKI)
+
+#### PKI Components
+- **Certificate Authority (CA)**: Issues and manages digital certificates
+- **Registration Authority (RA)**: Verifies identity before certificate issuance
+- **Certificate Repository**: Stores and distributes certificates
+- **Certificate Revocation List (CRL)**: Lists revoked certificates
+
+#### Certificate Lifecycle
+- **Enrollment**: Request certificate from CA
+- **Issuance**: CA verifies identity and issues certificate
+- **Distribution**: Certificate published to repository
+- **Renewal**: Certificate renewed before expiration
+- **Revocation**: Certificate revoked when compromised
+
+#### X.509 Certificates
+- **Standard**: ITU-T X.509 standard for public key certificates
+- **Contents**: Subject, issuer, validity period, public key, signature
+- **Extensions**: Additional information and constraints
+- **Formats**: PEM, DER, PFX/P12
+
+### TLS/SSL Protocols
+
+#### SSL/TLS Overview
+- **Purpose**: Secure communication over computer networks
+- **Layers**: Record protocol, handshake protocol, alert protocol
+- **Functions**: Authentication, encryption, integrity
+- **Applications**: HTTPS, email, VPNs
+
+#### Handshake Process
+1. **Client hello**: Client initiates connection
+2. **Server hello**: Server responds with certificate
+3. **Key exchange**: Negotiate encryption parameters
+4. **Finished**: Verify successful handshake
+5. **Application data**: Secure communication begins
+
+#### Versions and Security
+- **SSL 2.0/3.0**: Deprecated, security vulnerabilities
+- **TLS 1.0/1.1**: Deprecated, security weaknesses
+- **TLS 1.2**: Current standard, widely supported
+- **TLS 1.3**: Latest version, improved security and performance
+
+## Malware Types (Expanded Coverage)
+
+### Advanced Malware Types
+
+#### Advanced Persistent Threats (APTs)
+- **Definition**: Prolonged and targeted cyberattacks
+- **Characteristics**: Sophisticated, stealthy, long-term presence
+- **Targets**: Governments, corporations, critical infrastructure
+- **Methods**: Multiple attack vectors, custom tools
+- **Goals**: Data theft, espionage, sabotage
+
+#### Rootkits
+- **Definition**: Malware that provides privileged access while hiding presence
+- **Characteristics**: Low-level access, difficult to detect and remove
+- **Effects**: System compromise, hidden processes, data theft
+- **Protection**: Specialized rootkit detection tools, system integrity monitoring
+
+#### Botnets
+- **Definition**: Network of compromised computers controlled by attacker
+- **Characteristics**: Centralized command and control, coordinated attacks
+- **Effects**: DDoS attacks, spam distribution, data theft
+- **Protection**: Network monitoring, endpoint protection, traffic analysis
+
+### Malware Detection and Prevention
+
+#### Detection Methods
+- **Signature-based**: Compare files to known malware signatures
+- **Behavioral analysis**: Monitor for suspicious activities
+- **Heuristic analysis**: Identify potential malware based on characteristics
+- **Sandboxing**: Execute suspected malware in isolated environment
+
+#### Prevention Strategies
+- **Antivirus software**: Real-time scanning and threat removal
+- **Email filtering**: Block malicious attachments and links
+- **Web filtering**: Block access to malicious websites
+- **Patch management**: Keep systems updated with security patches
+- **User education**: Train users to recognize and avoid threats
+
+## Security Tools (Expanded Coverage)
+
+### SIEM Solutions
+
+#### SIEM Overview
+- **Purpose**: Security Information and Event Management
+- **Functions**: Log collection, correlation, analysis, reporting
+- **Benefits**: Centralized monitoring, threat detection, compliance reporting
+- **Examples**: Splunk, IBM QRadar, ArcSight, LogRhythm
+
+#### SIEM Capabilities
+- **Log collection**: Gather logs from various sources
+- **Normalization**: Standardize log formats
+- **Correlation**: Identify patterns and relationships
+- **Alerting**: Generate security alerts
+- **Dashboards**: Visualize security data
+- **Forensics**: Investigate security incidents
+
+### Antivirus and Anti-Malware
+
+#### Antivirus Solutions
+- **Purpose**: Detect, prevent, and remove malicious software
+- **Detection methods**: Signature-based, heuristic, behavioral
+- **Components**: Real-time scanning, scheduled scans, updates
+- **Examples**: Symantec, McAfee, Kaspersky, Windows Defender
+
+#### Next-Generation Antivirus (NGAV)
+- **Features**: Machine learning, behavioral analysis, exploit prevention
+- **Benefits**: Better detection of unknown threats
+- **Examples**: CrowdStrike, Carbon Black, Microsoft Defender ATP
+
+### Vulnerability Scanners
+
+#### Purpose
+- **Function**: Identify security vulnerabilities in systems and applications
+- **Scope**: Network, host, web application vulnerabilities
+- **Benefits**: Proactive security, compliance verification
+- **Examples**: Nessus, OpenVAS, Qualys, Rapid7
+
+#### Scanner Types
+- **Network-based**: Scan network-accessible systems
+- **Host-based**: Install agents on target systems
+- **Web application**: Scan web applications for vulnerabilities
+- **Database**: Scan databases for security issues
+
+### Penetration Testing Tools
+
+#### Purpose
+- **Function**: Simulate attacks to identify security weaknesses
+- **Approach**: Authorized simulated attack on systems
+- **Benefits**: Identify real-world vulnerabilities
+- **Examples**: Metasploit, Nmap, Burp Suite, Wireshark
+
+#### Tool Categories
+- **Reconnaissance**: Information gathering (Nmap, Recon-ng)
+- **Exploitation**: Exploit vulnerabilities (Metasploit, SQLmap)
+- **Post-exploitation**: Maintain access (Mimikatz, Empire)
+- **Reporting**: Document findings (Faraday, Dradis)
+
+### Network Monitoring Tools
+
+#### Purpose
+- **Function**: Monitor network traffic and activity
+- **Benefits**: Detect anomalies, troubleshoot issues, security monitoring
+- **Examples**: Wireshark, Nagios, SolarWinds, PRTG
+
+#### Monitoring Types
+- **Packet capture**: Capture and analyze network packets
+- **Flow analysis**: Analyze network flow data (NetFlow, sFlow)
+- **Bandwidth monitoring**: Monitor network utilization
+- **Intrusion detection**: Monitor for malicious activity
+
+## Network Security (Expanded Coverage)
+
+### Firewall Configuration
+
+#### Firewall Types
+- **Packet filtering**: Filter based on IP headers
+- **Stateful inspection**: Track connection state
+- **Application layer**: Deep packet inspection
+- **Next-generation**: Integrated security functions
+
+#### Configuration Best Practices
+- **Default deny**: Deny all traffic by default
+- **Least privilege**: Allow only necessary traffic
+- **Regular review**: Periodic rule review and cleanup
+- **Documentation**: Document all rules and purposes
+- **Logging**: Enable logging for monitoring
+
+#### Rule Structure
+- **Source**: Origin of traffic
+- **Destination**: Target of traffic
+- **Service/Port**: Specific protocols and ports
+- **Action**: Allow, deny, or reject
+- **Logging**: Enable/disable logging
+
+### VPN Implementation
+
+#### VPN Types
+- **Site-to-site**: Connect entire networks
+- **Remote access**: Connect individual users
+- **Client-to-site**: Connect single devices
+- **Site-to-client**: Connect network to single device
+
+#### VPN Protocols
+- **IPSec**: Layer 3 tunneling protocol
+- **SSL/TLS**: Web-based VPN
+- **L2TP**: Layer 2 tunneling protocol
+- **PPTP**: Point-to-point tunneling protocol (deprecated)
+
+#### Implementation Considerations
+- **Authentication**: Strong authentication methods
+- **Encryption**: Appropriate encryption strength
+- **Performance**: Bandwidth and latency considerations
+- **Scalability**: Support for expected number of users
+- **Management**: Centralized management and monitoring
+
+### Wireless Security: WPA2, WPA3
+
+#### WPA2 (Wi-Fi Protected Access 2)
+- **Encryption**: AES-CCMP encryption
+- **Authentication**: PSK (Pre-Shared Key) or 802.1X
+- **Security**: Currently secure but vulnerable to KRACK attack
+- **Usage**: Widely deployed standard
+
+#### WPA3 (Wi-Fi Protected Access 3)
+- **Encryption**: AES-GCMP encryption
+- **Authentication**: SAE (Simultaneous Authentication of Equals)
+- **Security**: Enhanced security over WPA2
+- **Features**: Forward secrecy, stronger authentication
+
+#### Wireless Security Best Practices
+- **Strong passwords**: Use complex pre-shared keys
+- **Network segmentation**: Separate guest and internal networks
+- **Regular updates**: Keep firmware updated
+- **Monitoring**: Monitor for rogue access points
+- **Encryption**: Use strongest available encryption
+
+### Network Segmentation
+
+#### Purpose
+- **Security**: Limit lateral movement of threats
+- **Compliance**: Meet regulatory requirements
+- **Performance**: Improve network performance
+- **Management**: Simplify network management
+
+#### Segmentation Methods
+- **VLANs**: Virtual LANs for logical separation
+- **Subnetting**: IP subnet-based segmentation
+- **Firewalls**: Physical or virtual firewalls
+- **Microsegmentation**: Individual workload isolation
+
+#### Benefits
+- **Reduced attack surface**: Limit exposure to threats
+- **Containment**: Prevent spread of malware
+- **Compliance**: Meet regulatory requirements
+- **Performance**: Reduce broadcast traffic
+
 ## Incident Response
 
 ### Phases: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned

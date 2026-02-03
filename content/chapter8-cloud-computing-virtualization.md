@@ -818,6 +818,26 @@ Cloud computing and virtualization have revolutionized how organizations deploy,
 - **Reduced maintenance**: Provider handles infrastructure
 - **Faster deployment**: Reduced time to market
 
+### FinOps (Financial Operations)
+
+#### Definition
+- **Purpose**: Bring financial accountability to cloud spending
+- **Approach**: Operationalize financial management in cloud
+- **Benefits**: Optimize cloud spend, improve accountability
+- **Practices**: Cloud cost visibility, budgeting, forecasting
+
+#### FinOps Practices
+- **Visibility**: Real-time cloud cost visibility
+- **Accountability**: Assign cost ownership to teams
+- **Optimization**: Continuous cost optimization
+- **Reporting**: Regular cost reporting and analysis
+
+#### FinOps Tools
+- **Cloud providers**: AWS Cost Explorer, Azure Cost Management
+- **Third-party**: CloudHealth, Apptio Cloudability, Spot.io
+- **Custom solutions**: Internal cost tracking and reporting
+- **Integration**: Integration with existing financial systems
+
 ## Cloud Migration
 
 ### Migration Strategies: Lift and Shift, Re-platforming, Refactoring
@@ -854,6 +874,58 @@ Cloud computing and virtualization have revolutionized how organizations deploy,
 - **Performance**: Baseline current performance
 - **Security**: Assess current security posture
 - **Recommendations**: Prioritize migration candidates
+
+### 6 Rs of Cloud Migration
+
+#### Rehost (Lift and Shift)
+- **Approach**: Move applications without changes
+- **Benefits**: Fastest migration approach
+- **Use cases**: Applications with no modernization priority
+
+#### Replatform (Lift, Tinker and Shift)
+- **Approach**: Move with minimal optimizations
+- **Benefits**: Some performance improvements
+- **Use cases**: Applications needing minor updates
+
+#### Refactor (Re-architect)
+- **Approach**: Redesign for cloud-native architecture
+- **Benefits**: Full cloud benefits
+- **Use cases**: Applications requiring modernization
+
+#### Retire
+- **Approach**: Decommission applications no longer needed
+- **Benefits**: Reduce complexity and costs
+- **Use cases**: Legacy applications with no business value
+
+#### Retain
+- **Approach**: Keep applications on-premises
+- **Benefits**: No migration costs
+- **Use cases**: Applications not suitable for cloud
+
+#### Repurchase
+- **Approach**: Replace with commercial solution
+- **Benefits**: Leverage SaaS offerings
+- **Use cases**: Applications available as SaaS
+
+### Migration Tools and Services
+
+#### AWS Migration Services
+- **AWS Application Discovery Service**: Analyze on-premises applications
+- **AWS Server Migration Service**: Migrate physical and virtual servers
+- **AWS Database Migration Service**: Migrate databases to AWS
+- **AWS Migration Hub**: Track migration progress
+
+#### Azure Migration Services
+- **Azure Migrate**: Central hub for assessment and migration
+- **Azure Site Recovery**: Disaster recovery and migration
+- **Azure Database Migration Service**: Migrate databases to Azure
+- **Microsoft Assessment and Planning Toolkit**: Assessment tools
+
+#### Google Cloud Migration Services
+- **Migrate for Compute Engine**: Live migration of virtual machines
+- **Database Migration Service**: Migrate databases to Google Cloud
+- **Transport Service**: Physical data transfer to Google Cloud
+- **Cloud Foundation Toolkit**: Infrastructure deployment tools
 
 ## Serverless Computing
 
@@ -895,6 +967,32 @@ Cloud computing and virtualization have revolutionized how organizations deploy,
 - **Database changes**: Database events triggering processing
 - **Message queues**: Queue messages triggering processing
 - **File uploads**: Storage events triggering processing
+
+### Additional Serverless Services
+
+#### Backend as a Service (BaaS)
+- **Purpose**: Cloud platform providing backend services
+- **Services**: Authentication, database, push notifications
+- **Benefits**: Reduced development time, managed infrastructure
+- **Examples**: Firebase, AWS Amplify, Azure Mobile Apps
+
+#### Functions as a Service (FaaS)
+- **Purpose**: Event-driven function execution
+- **Characteristics**: Stateless, ephemeral, automatic scaling
+- **Benefits**: No infrastructure management, pay-per-execution
+- **Examples**: AWS Lambda, Azure Functions, Google Cloud Functions
+
+#### Serverless Containers
+- **Purpose**: Run containers without managing servers
+- **Benefits**: Container benefits without server management
+- **Examples**: AWS Fargate, Azure Container Instances, Google Cloud Run
+- **Use cases**: Microservices, batch processing, event processing
+
+#### Serverless Databases
+- **Purpose**: Managed databases that scale automatically
+- **Benefits**: No capacity planning, automatic scaling
+- **Examples**: AWS DynamoDB, Google Firestore, Azure Cosmos DB
+- **Use cases**: Web applications, mobile backends, IoT
 
 ## Summary
 
