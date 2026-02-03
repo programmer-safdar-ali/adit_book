@@ -1,4 +1,4 @@
-# Chapter 12: Big Data & Modern Technologies
+# Chapter 11: Big Data & Modern Technologies
 
 ## Introduction
 

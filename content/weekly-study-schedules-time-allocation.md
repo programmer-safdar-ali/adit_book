@@ -173,7 +173,7 @@ This section provides structured study schedules for the ADIT Preparation Book, 
   - Practical exercises (4 hours)
   - Review and notes consolidation (3 hours)
 
-### Week 11: IT Governance & Policy Development
+### Week 14: IT Governance & Policy Development
 - **Time Allocation**: 20 hours
 - **Daily Schedule**: 3 hours per day (6 days), 2 hours on weekend day
 - **Focus Areas**:
@@ -182,13 +182,13 @@ This section provides structured study schedules for the ADIT Preparation Book, 
   - Day 5-6: Change management and risk management
   - Day 7: Review and practice questions
 - **Activities**:
-  - Read Chapter 11 (4 hours)
+  - Read Chapter 14 (4 hours)
   - Framework application exercises (6 hours)
-  - Complete Chapter 11 MCQs (3 hours)
+  - Complete Chapter 14 MCQs (3 hours)
   - Practical exercises (4 hours)
   - Review and notes consolidation (3 hours)
 
-### Week 12: Big Data & Modern Technologies
+### Week 11: Big Data & Modern Technologies
 - **Time Allocation**: 20 hours
 - **Daily Schedule**: 3 hours per day (6 days), 2 hours on weekend day
 - **Focus Areas**:
@@ -197,13 +197,13 @@ This section provides structured study schedules for the ADIT Preparation Book, 
   - Day 5-6: Data warehousing and modern technologies
   - Day 7: Review and practice questions
 - **Activities**:
-  - Read Chapter 12 (4 hours)
+  - Read Chapter 11 (4 hours)
   - Big data tools exercises (6 hours)
-  - Complete Chapter 12 MCQs (3 hours)
+  - Complete Chapter 11 MCQs (3 hours)
   - Practical exercises (4 hours)
   - Review and notes consolidation (3 hours)
 
-### Week 13: Network Protocols & Communication
+### Week 12: Network Protocols & Communication
 - **Time Allocation**: 20 hours
 - **Daily Schedule**: 3 hours per day (6 days), 2 hours on weekend day
 - **Focus Areas**:
@@ -212,13 +212,13 @@ This section provides structured study schedules for the ADIT Preparation Book, 
   - Day 5-6: Wireless protocols and VoIP technologies
   - Day 7: Review and practice questions
 - **Activities**:
-  - Read Chapter 13 (4 hours)
+  - Read Chapter 12 (4 hours)
   - Protocol analysis exercises (6 hours)
-  - Complete Chapter 13 MCQs (3 hours)
+  - Complete Chapter 12 MCQs (3 hours)
   - Practical exercises (4 hours)
   - Review and notes consolidation (3 hours)
 
-### Week 14: Computer Hardware & Architecture
+### Week 13: Computer Hardware & Architecture
 - **Time Allocation**: 20 hours
 - **Daily Schedule**: 3 hours per day (6 days), 2 hours on weekend day
 - **Focus Areas**:
@@ -227,9 +227,9 @@ This section provides structured study schedules for the ADIT Preparation Book, 
   - Day 5-6: Hardware components and troubleshooting
   - Day 7: Review and practice questions
 - **Activities**:
-  - Read Chapter 14 (4 hours)
+  - Read Chapter 13 (4 hours)
   - Hardware simulation exercises (6 hours)
-  - Complete Chapter 14 MCQs (3 hours)
+  - Complete Chapter 13 MCQs (3 hours)
   - Practical exercises (4 hours)
   - Review and notes consolidation (3 hours)
 

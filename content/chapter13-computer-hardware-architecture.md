@@ -1,4 +1,4 @@
-# Chapter 14: Computer Hardware & Architecture
+# Chapter 13: Computer Hardware & Architecture
 
 ## Introduction
 

@@ -624,7 +624,7 @@
 - Automation scripts
 - Compliance test results
 
-## Chapter 11: IT Governance & Policy Development
+## Chapter 14: IT Governance & Policy Development
 
 ### Exercise 11.1: ITIL Process Implementation
 **Objective:** Implement ITIL processes.
@@ -686,7 +686,7 @@
 - Audit findings report
 - Compliance improvement plan
 
-## Chapter 12: Big Data & Modern Technologies
+## Chapter 11: Big Data & Modern Technologies
 
 ### Exercise 12.1: Hadoop Environment Setup
 **Objective:** Set up a Hadoop environment.
@@ -718,7 +718,7 @@
 - Operation implementation
 - Comparison analysis
 
-### Exercise 12.3: Big Data Processing
+### Exercise 11.3: Big Data Processing
 **Objective:** Process large datasets.
 **Tasks:**
 - Use Spark for data processing
@@ -748,7 +748,7 @@
 - Model implementation
 - Presentation of findings
 
-## Chapter 13: Network Protocols & Communication
+## Chapter 12: Network Protocols & Communication
 
 ### Exercise 13.1: Protocol Analysis
 **Objective:** Analyze network protocols using packet capture tools.
@@ -810,7 +810,7 @@
 - Security assessment report
 - Best practices documentation
 
-## Chapter 14: Computer Hardware & Architecture
+## Chapter 13: Computer Hardware & Architecture
 
 ### Exercise 14.1: System Assembly and Configuration
 **Objective:** Assemble and configure a computer system.

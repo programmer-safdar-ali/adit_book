@@ -1,4 +1,4 @@
-# Chapter 11: IT Governance & Policy Development (continued)
+# Chapter 14: IT Governance & Policy Development
 
 #### Value Streams and Processes
 - **Focus**: Activities and workflows that create value

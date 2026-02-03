@@ -570,7 +570,7 @@ D) There is no difference between them
 
 **Explanation:** RTO (Recovery Time Objective) is the maximum acceptable downtime for a system or application, while RPO (Recovery Point Objective) is the maximum acceptable data loss measured in time (how much data can be lost).
 
-## Chapter 11: IT Governance & Policy Development
+## Chapter 14: IT Governance & Policy Development
 
 ### Question 51
 What does ITIL stand for?
@@ -627,7 +627,7 @@ D) Certified Operations and Business Information Technology
 
 **Explanation:** COBIT stands for Control Objectives for Information and Related Technology. It's a framework for IT management and governance developed by ISACA.
 
-## Chapter 12: Big Data & Modern Technologies
+## Chapter 11: Big Data & Modern Technologies
 
 ### Question 56
 What are the five V's of big data?
@@ -684,7 +684,7 @@ D) To secure big data
 
 **Explanation:** MapReduce is a programming model and framework for processing and generating large data sets with a parallel, distributed algorithm on a cluster. It consists of a Map procedure that performs filtering and sorting, and a Reduce procedure that performs a summary operation.
 
-## Chapter 13: Network Protocols & Communication
+## Chapter 12: Network Protocols & Communication
 
 ### Question 61
 What is the three-way handshake in TCP?
@@ -741,7 +741,7 @@ D) Quantum Operating System
 
 **Explanation:** QoS (Quality of Service) refers to network capabilities that provide guaranteed traffic priority and performance for specific applications or data flows.
 
-## Chapter 14: Computer Hardware & Architecture
+## Chapter 13: Computer Hardware & Architecture
 
 ### Question 66
 What is the main difference between von Neumann and Harvard architectures?
